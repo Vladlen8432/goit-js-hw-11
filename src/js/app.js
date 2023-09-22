@@ -45,7 +45,7 @@ function renderImages(images) {
     const li = document.createElement('li');
     li.classList.add('gallery-card');
 
-    li.innerHTML = `<img src="${image.webformatURL}" alt="${image.tags}" loading="lazy" width=/>
+    li.innerHTML = `<img src="${image.webformatURL}" alt="${image.tags}" loading="lazy" />
         <div class="info">
           <p class="info-item"><b>Likes:</b> ${image.likes}</p>
           <p class="info-item"><b>Views:</b> ${image.views}</p>
